@@ -1,0 +1,32 @@
+# Environment files
+.env
+*.env
+.env.*
+
+# Python virtual environments
+.venv/
+venv/
+Backend/.venv/
+
+# Backend runtime data
+Backend/logs/
+Backend/conversations/
+logs/
+conversations/
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node.js dependencies and build output
+Frontend/node_modules/
+Frontend/build/
+
+# OS/editor metadata
+.DS_Store
+Thumbs.db

@@ -1,0 +1,30 @@
+[project]
+name = "selectable-chatbot-backend"
+version = "0.1.0"
+description = "Backend API for the selectable chatbot application"
+requires-python = ">=3.10,<3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic<2",
+    "python-dotenv",
+    "openai",
+    "langchain",
+    "langchain-openai",
+    "langchain-experimental",
+    "pandas",
+    "openpyxl",
+    "python-docx",
+    "striprtf",
+    "Pillow",
+    "xmltodict",
+    "python-multipart",
+    "pymupdf",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta"
