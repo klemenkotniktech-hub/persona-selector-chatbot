@@ -127,3 +127,10 @@ npm start
 - If the frontend cannot connect, ensure the backend is running on `http://localhost:8000`.
 - If dependency installation fails, remove `node_modules` and run `npm install` again.
 
+## TODO
+
+- Improve conversation analysis so the backend passes the full conversation object to the analysis flow instead of only message data. This is referenced in [Backend/app/main.py](Backend/app/main.py#L212).
+
+## Development process
+
+This project was developed with AI-assisted coding. I used AI tools to speed up implementation, but reviewed, tested, modified, and debugged the code myself.
